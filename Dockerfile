@@ -22,6 +22,6 @@ RUN cd /app && apt-get source nginx; \
 
 ADD nginx_whitelist.conf /usr/local/nginx/conf/nginx.conf
 
-EXPOSE 8888
+EXPOSE 8080
 
 CMD ["/usr/local/nginx/sbin/nginx"]
